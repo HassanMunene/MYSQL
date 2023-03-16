@@ -15,15 +15,24 @@ For you to create the databases you will need to run those sql scripts.
 the following below is how to run the scripts.
 
 ## RUN SQL Scripts to Create Databases
-**NB**: To run SQL scripts you need to have MySQL installed in your operating system. If you have not installed it do not worry I have included a guideline on how to install MySQL in this README file. [How to install MySQL](#installation)
-Open a command prompt or a terminal window and navigate to the directory where you have cloned this repository and contains those sql scripts.
+**NB**: To run SQL scripts you need to have MySQL installed in your operating system. If you have not installed it do not worry I have included a guideline on how to install MySQL in this README file. [How to install MySQL](#-installation).
+
+Have you installed it? Good now continue on how to run them scripts :smile:
+
+
+- Open a command prompt or a terminal window and navigate to the directory where you have cloned this repository and contains those sql scripts.
 - Launch the SQL command-line interface(CLI) by typing the following command: **mysql -u "your username" -p** in the terminal window. you will be prompted to enter your password
+- Once you are logged in, you can create a new database by running the SQL scripts. To do this, type **source scriptname.sql** in the MySQL CLI. Replace scriptname.sql with the name of your SQL script. This will execute the commands in the script and create the database.
+- You can verify that the database was created successfully by typing **show database** in the MySQL CLI. This will display a list of all the databases on your Mysql server.
+- To use the newly created database type **use databasename** in the MySQL CLI. Replace "databasename" with the name of the database you just created.
+
+That's it!
 
 # Introductio to MYSQL
 
 MYSQL is a popular open-source relational database management system (RDBMS) that is used by organizations for storing and managing data. It is widely used for web applications, content management systems, e-commerce webistes and other dataintesive applications.
 
-## #Installation
+## # Installation
 
 To use MYSQL, you first need to install it on your system. The installation process may vary depending on your operating system.
 
