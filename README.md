@@ -2,13 +2,28 @@
 
 First of all I would like to thank [**@programmingwithmosh**](https://www.youtube.com/c/programmingwithmosh) because I have used his course on Youtube on MySQL to train myself. I have created this repository so that I can keep track of my progress on mastering databases. To watch his tutorial [CLICK HERE](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=5448s)
 
-It contains some dummy databases that you can also download and use to train yourself.
+## STARTING
+
+This repository contains the following sql scripts:
+1. create-database.sql
+1. create-db-hr.sql
+1. create-db-inventroy.sql
+1. create-db-invoicing.sql
+1. create-db-store.sql
+
+For you to create the databases you will need to run those sql scripts.
+the following below is how to run the scripts.
+
+## RUN SQL Scripts to Create Databases
+**NB**: To run SQL scripts you need to have MySQL installed in your operating system. If you have not installed it do not worry I have included a guideline on how to install MySQL in this README file. [How to install MySQL](#installation)
+Open a command prompt or a terminal window and navigate to the directory where you have cloned this repository and contains those sql scripts.
+- Launch the SQL command-line interface(CLI) by typing the following command: **mysql -u "your username" -p** in the terminal window. you will be prompted to enter your password
 
 # Introductio to MYSQL
 
 MYSQL is a popular open-source relational database management system (RDBMS) that is used by organizations for storing and managing data. It is widely used for web applications, content management systems, e-commerce webistes and other dataintesive applications.
 
-## Installation
+## #Installation
 
 To use MYSQL, you first need to install it on your system. The installation process may vary depending on your operating system.
 
