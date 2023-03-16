@@ -1,3 +1,8 @@
+# INTRO
+
+First of all I would like to thank [**@programmingwithmosh**](https://www.youtube.com/c/programmingwithmosh) because I have used his course on Youtube on MySQL to train myself. I have created this repository so that I can keep track of my progress on mastering databases. To watch his tutorial [CLICK HERE](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=5448s)
+
+It contains some dummy databases that you can also download and use to train yourself.
 
 # Introductio to MYSQL
 
