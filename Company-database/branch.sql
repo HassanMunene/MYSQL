@@ -4,10 +4,11 @@
 -- we will also have manager_id that is a foreign key that reference the emp_id -- of the Employee table
 
 
-DROP TABLE branch;
 CREATE TABLE branch(
 	branch_id INT PRIMARY KEY,
 	branch_name VARCHAR(50),
 	manager_id INT,
-	FOREIGN KEY(manager_id) REFERENCES Employee(emp__id)
+	CONSTRAINT fk_branch_emp
+		FOREIGN KEY (manager_id) 
+		REFERENCES Employee(emp__id)
 );
